@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel= "stylesheet" href="style.css">
+    <title>Book a Visit - Alpaca Farm</title>
+</head>
+<body>
+    <header>
+        <h1>Tufts Alpaca Farm</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="reserve.html">Book a Visit</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h2>Book a Visit</h2>
+        <div class="booking-form">
+            <form action="reservesubmit.html" method="post">
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="email" name="email" placeholder="Your Email">
+                <input type="date" name="date">
+                <select name="time">
+                    <option value="" disabled selected>Select a Time</option>
+                    <option value="morning">9am-11am </option>
+                    <option value="afternoon">11am-1pm</option>
+                    <option value="afternoon">1pm-3pm</option>
+                    <option value="afternoon">3pm-5pm</option>
+                </select>
+                <input number="people" placeholder="Number of people">
+                <button type="submit">Book Now</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; Site powered by HTML with CSS, Krish, and a lot of caffiene.</p>
+    </footer>
+</body>
+</html>
