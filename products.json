@@ -1,0 +1,62 @@
+[
+    {
+    "name": "Wireless Bluetooth Earbuds",
+    "description": "High-quality sound, comfortable fit, long battery life, compatible with all Bluetooth devices.",
+    "price": 49.99,
+    "category": ["Electronics", "Bluetooth", "Earbuds", "Wireless", "Audio"]
+    },
+    {
+    "name": "Organic Cotton T-Shirt",
+    "description": "Made from 100% organic cotton, soft and breathable fabric, available in various colors and sizes.",
+    "price": 19.99,
+    "category": ["Clothing", "T-Shirt", "Organic", "Cotton", "Sustainable Fashion"]
+    },
+    {
+    "name": "Laptop Backpack",
+    "description": "Durable and waterproof, padded compartments for laptops and tablets, multiple pockets for organization.",
+    "price": 39.99,
+    "category": ["Accessories", "Backpack", "Laptop", "Travel", "Organization"]
+    },
+    {
+    "name": "Yoga Mat",
+    "description": "Non-slip surface, eco-friendly material, lightweight and portable, suitable for yoga and pilates.",
+    "price": 29.99,
+    "category": ["Fitness", "Yoga", "Pilates", "Exercise", "Eco-Friendly"]
+    },
+    {
+    "name": "Stainless Steel Water Bottle",
+    "description": "Double-wall insulated, keeps drinks hot or cold for hours, BPA-free and leak-proof design.",
+    "price": 14.99,
+    "category": ["Accessories", "Water Bottle", "Stainless Steel", "Eco-Friendly", "Travel"]
+    },
+    {
+    "name": "Smartphone Tripod Stand",
+    "description": "Adjustable height and angle, compatible with most smartphones, stable and sturdy design.",
+    "price": 24.99,
+    "category": ["Electronics", "Smartphone", "Photography", "Tripod", "Accessories"]
+    },
+    {
+    "name": "Organic Green Tea",
+    "description": "Premium quality, antioxidant-rich, sourced from sustainable farms, soothing and refreshing.",
+    "price": 9.99,
+    "category": ["Tea", "Organic", "Green Tea", "Healthy"]
+    },
+    {
+    "name": "Resistance Bands Set",
+    "description": "Includes five bands of varying resistance levels, suitable for a wide range of exercises, portable and versatile.",
+    "price": 19.99,
+    "category": ["Fitness", "Exercise", "Resistance Bands", "Workout", "Home Gym"]
+    },
+    {
+    "name": "Aromatherapy Essential Oil Diffuser",
+    "description": "Ultrasonic technology, seven LED light colors, automatic shut-off feature, promotes relaxation and stress relief.",
+    "price": 34.99,
+    "category": ["Home", "Aromatherapy", "Diffuser", "Wellness", "Relaxation"]
+    },
+    {
+    "name": "Eco-Friendly Bamboo Toothbrush",
+    "description": "Biodegradable bamboo handle, BPA-free bristles, environmentally friendly alternative to plastic toothbrushes.",
+    "price": 3.99,
+    "category": ["Personal Care", "Toothbrush", "Bamboo", "Eco-Friendly", "Sustainable"]
+    }
+]
