@@ -2,9 +2,9 @@
     "name": "part2",
     "version": "1.0.0",
     "description": "node app",
-    "main": "part1.js",
+    "main": "hello.js",
     "scripts": {
-        "start": "node part2.js"
+        "start": "node hello.js"
     },
     "repository": {
         "type": "git",
