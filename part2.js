@@ -73,6 +73,7 @@ async function retrievePrice(sqlQuery, client, res) {
 
 var express = require('express');
 var app = express();
+const port = process.env.PORT || 3000;
 
 app.use(express.urlencoded());
 //Regular Part 2 Function
@@ -145,4 +146,7 @@ app.get('/getPrice', function(req, res, next){
     retrievePrice(sqlQuery, client, res);
     client.close();
 });
-app.listen(3000);
+//app.listen(port);
+app.listen(port, () => {
+    console.log(`Server running on port ${port}`);
+});
