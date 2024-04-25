@@ -145,4 +145,4 @@ app.get('/getPrice', function(req, res, next){
     retrievePrice(sqlQuery, client, res);
     client.close();
 });
-app.listen(2000);
+app.listen(3000);
