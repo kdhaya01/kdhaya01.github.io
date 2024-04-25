@@ -1,1 +1,1 @@
-web: node ./part2.js
+web: node part2.js
