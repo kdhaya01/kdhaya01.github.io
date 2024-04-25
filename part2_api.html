@@ -46,14 +46,14 @@ document.getElementById("searchForm").addEventListener("submit", function(event)
 
 
     if (searchType === 'ticker') {
-        const endpoint = new URL ('http://localhost:2000/getPrice?searchQuery=' + query + '&searchType=ticker');
+        const endpoint = new URL ('http://localhost:3000/getPrice?searchQuery=' + query + '&searchType=ticker');
         const response = fetch(endpoint);
         alert('endpoint is: ' + endpoint);
         const data = response.json();
         console.log(response);
 
     } else if (searchType === 'company') {
-        const endpoint = new URL ('http://localhost:2000/getPrice?searchQuery=' + query + '&searchType=company');
+        const endpoint = new URL ('http://localhost:3000/getPrice?searchQuery=' + query + '&searchType=company');
         const response = fetch(endpoint);
         const data = response.json();
         console.log(response);
